@@ -1,21 +1,38 @@
 body{
   font-family: Arial, Helvetica, sans-serif;
-  background-color:gray;
+  /*background-color:rgb(194, 185, 185)*/
+  margin: 30px,30px,30px,30px;
+}
+header{
+  background-color:rgb(194, 185, 185) ;
+  
+  padding:1px
 }
 #title{
   text-align: center;
   color: rgb(0, 0, 0);
   font-size: 50px;
   margin-top: -5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifx;
+ 
 }
 .thought{
   margin-left: auto;
   margin-right: auto;
   width: 30rem;
-  font-size: 14px;
+  font-size: 17px;
   font-family: 'Gochi Hand', cursive;
-  color: rgb(109, 107, 107);
+  color: black;
+  background-color: rgb(245, 248, 250);
+  border-radius: 10px;
+  padding:10px;
+  
   /*text-align: center;*/
+}
+#img-div{
+  background-color: white;
+  border-radius: 30px;
+  
 }
 #img{
   display: block;
@@ -23,13 +40,18 @@ body{
   margin-left: auto;
   width : 950px;
   height: 600px;
-  background-color: honeydew;
+  /*background-color: honeydew;*/
 }
 #img-caption{
   text-align: center;
+  /*background-color: aliceblue;*/
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 #tribute-info{
-  background-color: gray;
+  background-color: rgb(194, 185, 185);
+  
+  padding:1px
 }
 .list{
   margin-top: 40px;
@@ -37,5 +59,15 @@ body{
   margin-right: auto;
   width:35rem;
   text-align: justify;
-  background-color: gray;
+  /*background-color: gray;*/
+
+}
+footer{
+  text-align: center;
+}
+.info{
+  
+  font-size: 10px;
+
+
 }
