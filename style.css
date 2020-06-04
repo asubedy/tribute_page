@@ -1,4 +1,4 @@
-body{
+#main{
   font-family: Arial, Helvetica, sans-serif;
 }
 header{
@@ -32,17 +32,17 @@ header{
   height: auto;
 }
 
-#img{
+#image{
   display: block;
   margin-right: auto;
   margin-left: auto;
+  max-width: 100%;
   width : 950px;  
   height: auto;
 }
 
 #img-caption{
   text-align: center;
-  /*background-color: aliceblue;*/
   font-size: 18px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
@@ -86,8 +86,4 @@ footer{
   }
 }
 
-@media (max-width: 910px) {
-  #img {
-    max-width: 100%;
-  }
-}
+
